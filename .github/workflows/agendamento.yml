@@ -24,4 +24,4 @@ jobs:
       - name: Rodar Script
         env:
           DATABASE_URL: ${{ secrets.DATABASE_URL }}
-        run: python coletor.py
+        run: python coletor_poo.py
